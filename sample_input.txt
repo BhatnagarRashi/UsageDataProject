@@ -1,0 +1,15 @@
+9000600600|InAir1234|0|13456|No
+9000600601|InAir125|1345|0|Yes
+9000600600|InAir1234|500|0|Yes
+9000600600|InAir1234|1000|5000|No
+9000600600|InAir1234|0|0|Yes
+9000600601|InAir125|1345|0|Yes
+9000600602|InAir5678|40000|100000|No
+9000600603|InAir9000|60000|20000|No
+9000600603|InAir9000|10000|20000|Yes
+9000600604|InAir1235|abc|500|No        # 'abc' is not a valid integer for 4G data
+9000600605|InAir1236|1000|500|Maybe   # 'Maybe' is invalid for roaming (should be Yes/No)
+9000600606|InAir1237|1000             # Missing fields, only 3 instead of 5
+9000600607|InAir1238|1000|500|YES|ExtraField  # Extra field beyond 5 columns
+9000600608|InAir1239|1000|500         # Only 4 fields instead of 5
+9000600609|InAir1240|1000|five hundred|No  # 'five hundred' invalid integer
