@@ -17,7 +17,7 @@ This Java project reads one or more input files containing mobile usage logs, ag
 ```bash
 javac *.java
 
-2. Run the program
+###2. Run the program
    java ReportGenerator sample_input.txt
 
    You can provide multiple files like this:
