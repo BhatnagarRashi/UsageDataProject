@@ -34,8 +34,9 @@ To compile and run the JUnit test:
 javac -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar UsageDataTest.java
 java -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar org.junit.runner.JUnitCore UsageDataTest
 ```
+---
 
-##📤 Sample Input Format (sample_input.txt)
+## 📤 Sample Input Format (sample_input.txt)
 
 Mobile Number|User ID|4G Data|5G Data|Roaming
 9000600600|InAir1234|0|13456|No
@@ -43,17 +44,22 @@ Mobile Number|User ID|4G Data|5G Data|Roaming
 9000600600|InAir1234|500|0|Yes
 9000600600|InAir1234|1000|5000|No
 
-##📤 Sample Output
+---
+
+## 📤 Sample Output
 
 Mobile Number|4G|5G|4G Roaming|5G Roaming|Cost
 9000600600|1000|18456|500|0|₹1163
 9000600601|2680|0|0|0|₹268
 
-##📝 Notes
+---
+
+## 📝 Notes
 Invalid lines (wrong format, missing values, invalid roaming input) are skipped with error messages shown in the terminal.
 
 Roaming logic is handled separately: 4G and 5G roaming data is tracked.
 
+---
 
-##👤 Author
+## 👤 Author
 Rashi Bhatnagar
